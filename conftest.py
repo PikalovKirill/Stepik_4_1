@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 
 #волщебная встроенная функция для обработки инфы из терминала
 def pytest_addoption(parser):
-    parser.addoption('--language', action='store', default=None, help="Choose languages")
+    parser.addoption('--language', action='store', default=en, help="Choose languages")
 
 
 
